@@ -49,8 +49,5 @@ int main()
 
     cout<<"min length is: "<< minLength;
 
-
-
-
     return 0;
 }
