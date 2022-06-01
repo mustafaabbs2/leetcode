@@ -8,7 +8,7 @@ using namespace std;
 
 // DFS = preorder, postorder, inorder
 
-//You can treat trees and graphs to be the samer for this purpose
+//You can treat trees and graphs to be the same for this purpose (remember we used to convert graphs to trees for the same thing)
 
 // We can use a Queue to efficiently traverse in BFS fashion. Here are the steps of our algorithm:
 
@@ -86,3 +86,7 @@ int main(int argc, char *argv[]) {
     cout << endl;
   }
 }
+
+//     12  
+//    7  1 
+//  9  10  5
