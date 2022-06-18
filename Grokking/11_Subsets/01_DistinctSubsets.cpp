@@ -40,7 +40,7 @@ class Subsets {
 };
 
 int main(int argc, char* argv[]) {
-  vector<vector<int>> result = Subsets::findSubsets(vector<int>{1, 3});
+  vector<vector<int>> result = Subsets::findSubsets(vector<int>{1, 3, 1});
   cout << "Here is the list of subsets: " << endl;
   for (auto vec : result) {
     for (auto num : vec) {
